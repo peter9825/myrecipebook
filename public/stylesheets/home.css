@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/loginimage.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; 
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align content vertically */
+    height: 100vh; /* Ensures the content takes up the full height of the viewport */
+    position: relative; /* Ensure the overlay covers the entire body */
+  }
+
+  /* Overlay */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black color */
+    backdrop-filter: blur(5px); /* Blur effect */
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    z-index: 1000; /* Ensure the navbar is above the overlay */
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Vertically center items */
+  }
+
+  .navbar ul li {
+    margin-left: 20px; /* Add more space between items */
+  }
+
+  .navbar ul li:first-child {
+    margin-left: 0; /* Remove margin from the first item */
+  }
+
+  .navbar ul li a {
+    color: #fff; /* Set link color to white */
+    text-decoration: none;
+  }
+
+  .title {
+    text-align: center;
+    color: white; /* Set text color to white */
+    position: relative; /* Ensure the title is above the overlay */
+    z-index: 1001; /* Ensure the title is above the overlay */
+  }
+
+  .caption {
+    text-align: center;
+    color: white;
+    margin-top: 10px; /* Add some space between the title and caption */
+    z-index: 1001;
+  }
+
+  .social-icons {
+    text-align: center;
+    margin-top: 20px; /* Add some space between the caption and social icons */
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    align-items: center; /* Center icons vertically */
+    z-index: 1001;
+  }
+
+  .social-icons a {
+    color: white;
+    font-size: 24px; /* Adjust the size of the icons */
+    margin: 0 10px; /* Add some space between icons */
+    z-index: 1001;
+  }

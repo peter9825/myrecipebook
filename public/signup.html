@@ -1,0 +1,45 @@
+<html>
+<head>
+  <title>Express</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel='stylesheet' href='/stylesheets/login.css' />
+
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav class="menu">
+    <ul><a href="/">Back to Home</a></ul>
+	</nav>
+
+  <main class="text-center">
+    <form class="form-signin" method="post" action="signup">
+      <div id="message">
+        <!-- This element's contents will be replaced with your component. -->
+      </div>
+      <h1 class="h3 mb-3 font-weight-normal">Create a new account</h1>
+      <input class="form-control" type="text" name="fullname" placeholder="Full Name" required autofocus>
+      <input class="form-control" type="text" name="prefer" placeholder="Preferred Name" required>
+      <input class="form-control" type="text" name="username" placeholder="User name or email address" required>
+      <input class="form-control" type="password" name="password" id="password" placeholder="Password" required>
+
+      <div class="checkbox mb-3">
+        <label><input type="checkbox" onclick="showPassword()"> Show password</label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+
+      <div style="margin-top:15px ;border-top: 1px solid 888; padding-top:15px" >
+        Already have an account? <a href="login" >Sign In Here</a>
+      </div>
+
+    </form>
+    </main>
+
+  <!-- Load our React component. -->
+  <script src="/javascripts/signup.js" type="text/babel"></script>
+  <script src="/javascripts/showPassword.js"></script>
+</body>
+</html>
