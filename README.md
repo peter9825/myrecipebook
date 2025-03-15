@@ -12,13 +12,18 @@
   - Session Management: Maintains login state
   - Database Integration: Stores user data in PostgreSQL using the pg library.
   - Protected Routes: Restricts access to recipe pages based on authentication status.
+
+# Requirements
+
+  - Node.js (v16 or later recommended)
+  - npm (comes with Node.js)
+  - PostgreSQL (v12 or later recommended)
+  - install project dependencies (npm install) 
  
 
 # Running the Application
-  
+ 
   - Clone the Repository(git clone https://github.com/yourusername/myrecipebook.git)
-  - Create a PostgreSQL database and update your .env file
-  - install dependencies (npm install)
   - start the server (npm start)
  
     
