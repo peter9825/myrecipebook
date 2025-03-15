@@ -6,6 +6,7 @@ Project Overview:
 
 
   Features:
+  
   - User Authentication: Secure sign-up and login
   - Password Encryption: hashes and store user passwords safely.
   - Session Management: Maintains login state
@@ -13,7 +14,8 @@ Project Overview:
   - Protected Routes: Restricts access to recipe pages based on authentication status.
  
 
-  Installation
+  Installation:
+  
   - Clone the Repository(git clone https://github.com/yourusername/myrecipebook.git)
   - install dependencies (npm install)
   - start the server (npm start)
