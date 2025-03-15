@@ -1,5 +1,5 @@
-render URL:
-https://myrecipebook-kz5r.onrender.com
+#Project Overview:
 
-A simple recipe website where users can log in and view a catalog of famous italian recipes. 
-we hope to expand on this by allowing users to "favorite" recipes and add their own, but these features are not currently implemented. 
+A full-stack recipe website that allows users to securely sign up, log in, and access personalized recipe pages. 
+Built with Node.js, Express.js, PostgreSQL, and Passport.js, this project features user authentication, session management, 
+and secure password encryption. 
