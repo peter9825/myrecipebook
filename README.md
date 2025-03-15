@@ -17,6 +17,7 @@ Project Overview:
   Installation:
   
   - Clone the Repository(git clone https://github.com/yourusername/myrecipebook.git)
+  - Create a PostgreSQL database and update your .env file
   - install dependencies (npm install)
   - start the server (npm start)
  
